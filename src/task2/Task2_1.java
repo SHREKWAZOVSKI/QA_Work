@@ -1,6 +1,6 @@
-package lesson2;
+package task2;
 
-public class Task1 {
+public class Task2_1 {
     /*Инициализировать три числовые переменные first, second, third
     Присвоить переменной first значение 5.
     Присвоить переменной second значение first Умноженное на 5.
