@@ -5,6 +5,8 @@ import java.util.Scanner;
 public class Task4 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+
+        //задание 1
         String string1, string2, string3, string4;
         System.out.println("Введите текст: Я тестирую замечательно. Что еще нужно?");
         string1 = scanner.next();
@@ -17,7 +19,7 @@ public class Task4 {
 
 
 
-
+        //задание 2
         int a, b, c;
         System.out.println("Введите три значения стороны треугольника");
         a = Integer.parseInt(scanner.next());
@@ -32,12 +34,15 @@ public class Task4 {
 
 
 
-
+        //задание 3
         System.out.println("Введите два числа");
         int firstNum = Integer.parseInt(scanner.next()), secondNum = Integer.parseInt(scanner.next());
         int sum = firstNum > secondNum ? firstNum - secondNum : secondNum - firstNum;
         System.out.println("Разница чисел равняется " + sum);
         System.out.println("================");
+
+
+        //задание 4
         System.out.println("Введите день недели");
         int weekNumber=Integer.parseInt(scanner.next());
         if (weekNumber==1) {
@@ -61,7 +66,7 @@ public class Task4 {
 
 
 
-
+        //задание 5
         System.out.println("Введите два числа");
         int firstNumber = Integer.parseInt(scanner.next()), secondNumber = Integer.parseInt(scanner.next());
         System.out.println("Введите одно из доступных действий: - + % * /");
@@ -74,8 +79,7 @@ public class Task4 {
 
 
 
-
-
+        //задание 6
         System.out.println("Введите программу, которую хотите скачать\nIntelliJ IDEA\nGit\nJava");
         String program = scanner.nextLine().toLowerCase();
         System.out.println("Введите необходимую ОС\nWindows\nLinux\nmacOS");
