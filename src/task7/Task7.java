@@ -11,7 +11,7 @@ public class Task7 {
 
 
         //задание 1
-        /*System.out.println("Введите количество строк массива");
+        System.out.println("Введите количество строк массива");
         int a = scanner.nextInt();
         System.out.println("Введите количество столбцов массива");
         int b = scanner.nextInt();
@@ -35,10 +35,10 @@ public class Task7 {
         System.out.print("Ваши максимальные значения: ");
         for (int outMaxVar:maxArray){
             System.out.print(outMaxVar + " ");
-        }*/
+        }
 
         // задание 2
-        System.out.println("==================");
+        System.out.println("\n==================");
         System.out.println("All Set. Get ready to rumble!");
         char[][] arrayGame = new char[5][5];
         int y = random.nextInt(0, 4);
