@@ -13,7 +13,7 @@ public class Task6 {
         String name = scanner.nextLine();
         System.out.println("Let the game begin!");
         boolean endGame = false;
-        while (endGame==false){
+        while (!endGame){
             System.out.println("Enter the number from 0 to 100");
             userNumber=scanner.nextInt();
             if (userNumber<randomNumber){
@@ -24,6 +24,7 @@ public class Task6 {
             }
             else {
                 System.out.println("Congratulations, " + name + "!");
+                endGame=true;
             }
         }
     }
