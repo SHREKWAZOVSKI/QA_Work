@@ -22,8 +22,6 @@ public class Task8 {
         typeMessage(arrayNumbers);
         typeMessage(numberForMessage, stringForMessage);
         System.out.println("=============================");
-
-        //задание 3
     }
 
     public static void typeMessage() {
